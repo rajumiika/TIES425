@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout file for the main view -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GeoTrack" 
+        android:textSize="24pt"/>
+    
+    <!-- Author -->
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Miika Raunio" />
+
+    <!-- Button for map view -->
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Map"
+        android:onClick="viewMap"/>
+
+</LinearLayout>
